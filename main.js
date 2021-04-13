@@ -22,7 +22,7 @@ function initMap(){
     locationButton.style.marginTop = "66vh"
     locationButton.style.fontWeight = "700"
     locationButton.style.border = "2px solid #006b54"
-    locationButton.style.borderRadius = "5%"
+    locationButton.style.borderRadius = "5px"
     locationButton.classList.add("custom-map-control-button");
     map.controls[google.maps.ControlPosition.TOP_CENTER].push(locationButton);
     locationButton.addEventListener("click", () => {
