@@ -15,6 +15,7 @@ body {
 }
 
 #title img {
+  margin-top: -5vh;
   color: white;
   height: 12vh;
 }
@@ -26,6 +27,7 @@ body {
 #start {
   border: 2px solid #ffdf00;
   background-color: #ffdf00;
+  border-radius: 5%;
   color: #006b54;
   font-weight: 700;
   padding: 1vh;
@@ -37,6 +39,7 @@ body {
 #end {
   border: 2px solid #ffdf00;
   background-color: #ffdf00;
+  border-radius: 5%;
   color: #006b54;
   font-weight: 700;
   padding: 1vh;
