@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
+    <title>Mapping</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdpl8aEv7NgfIFYQA_9NFtiNayACiojrE&libraries=geometry&callback=initMap&places" defer></script>
+    <script src="https://unpkg.com/measuretool-googlemaps-v3"></script>
+</head>
+
+<body>
+    <div class="title" id="title">
+        <h1>Range Finder</h1>
+    </div>
+
+    <div id="map"></div>
+
+    <div id="buttons">
+        <button id="start" onclick="measureTool.start()">Get Range</button>
+        <button id="end" onclick="measureTool.end()">Clear</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
