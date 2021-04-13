@@ -2,7 +2,7 @@ let map, infoWindow;
 
 function initMap(){
     map = new google.maps.Map(document.getElementById("map"), {
-        center: {lat: -34.397, lng: 150.644},
+        center: {lat: 36.57, lng: -121.94},
         zoom: 18,
         mapTypeId: "satellite",
     });
@@ -58,5 +58,3 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
   );
   infoWindow.open(map);
 }
-
-      
