@@ -4,6 +4,8 @@ body {
   align-items: center;
   min-height: 100vh;
   flex-direction: column;
+  background-color: #006b54;
+  font-family: "Open Sans", sans-serif;
 }
 
 #map {
@@ -12,10 +14,32 @@ body {
   height: 80vh;
 }
 
-#title {
-  margin-bottom: 2vh;
+#title img {
+  color: white;
+  height: 10vh;
 }
 
 #buttons {
-  margin: 40px;
+  margin-top: 1vh;
+}
+
+#start {
+  border: 2px solid #ffdf00;
+  background-color: #ffdf00;
+  color: #006b54;
+  font-weight: 700;
+  padding: 1vh;
+  font-size: 1vh;
+  cursor: pointer;
+  margin-right: 5vw;
+}
+
+#end {
+  border: 2px solid #ffdf00;
+  background-color: #ffdf00;
+  color: #006b54;
+  font-weight: 700;
+  padding: 1vh;
+  font-size: 1vh;
+  cursor: pointer;
 }
