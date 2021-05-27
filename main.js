@@ -8,8 +8,9 @@ function initMap(){
     });
     measureTool = new MeasureTool(map, {
         contextMenu: false,
-        unit: MeasureTool.UnitTypeId.METRIC
+        unit: MeasureTool.UnitTypeId.IMPERIAL
     });
+
 
     //Get current location of user
 

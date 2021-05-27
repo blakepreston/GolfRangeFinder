@@ -46,3 +46,15 @@ body {
   font-size: 2vh;
   cursor: pointer;
 }
+
+#trackButton {
+  border: 2px solid #ffdf00;
+  background-color: #ffdf00;
+  border-radius: 5px;
+  color: #006b54;
+  font-weight: 700;
+  padding: 1vh;
+  font-size: 2vh;
+  cursor: pointer;
+  margin-top: 1.5vh;
+}
